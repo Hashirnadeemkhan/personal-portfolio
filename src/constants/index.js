@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg"
 import project2 from "../assets/projects/project-2.jpg"
 import project3 from "../assets/projects/project-3.jpg"
 import project4 from "../assets/projects/project-4.jpg"
+import project5 from "../assets/projects/project-5.jpg"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and firebase. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`
 
@@ -18,7 +19,7 @@ export const EXPERIENCES = [
   {
     year: "Present",
     role: "Frontend Developer (Projects)",
-    company: "Self-Directed Projects",
+    company: "Intact one Solution",
     description: `Designed and developed user interfaces for personal projects using Next.js and React. Focused on integrating frontend components with backend services and implementing responsive designs.`,
     technologies: ["HTML", "CSS", "React.js", "CMS"],
   },
@@ -41,24 +42,24 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "MOrent - Rent a Car", 
-    image: morentImage,  // Path to your rent-a-car website image
+    image: project3,  // Path to your rent-a-car website image
     description: "MOrent is a rent-a-car website where users can browse available cars, book rentals, and manage reservations with ease.",
-    technologies: ["Nextjs", "Tailwind", "Firebase", "Stripe"],  // Example tech stack (adjust as per your project)
-    vercelLink: "https://morent-rentacar.vercel.app/",  // Replace with your actual deployed link
+    technologies: ["Nextjs", "Tailwind", "CMS", "Shadcn"],  // Example tech stack (adjust as per your project)
+    vercelLink: "https://hackathon-ecommerce-n63n.vercel.app/",  // Replace with your actual deployed link
 }
 ,
   {
     title: "Markdown Blog",
-    image: project3,
+    image: project4,
     description:
       "This is a coding blog project designed to create and display markdown-based blog posts. It features a clean and responsive UI with support for markdown rendering using Remark and Rehype, allowing users to write and share technical content. Built with TypeScript and Next.js, this blog is optimized for performance and user experience.",
     technologies: ["Typescript", "Shadcn", "Next.js", "Remark", "Rehype"],
     vercelLink: "https://markdown-hashirblog-z6ve.vercel.app/",
-  }
+  },
   
   {
     title: "POS Restaurant Panel",
-    image: project4,
+    image: project2,
     description:
       "This is a Point of Sale (POS) Restaurant Panel designed to streamline restaurant operations. It features an intuitive and responsive interface for managing orders, menus, and inventory. The project includes an Admin Panel for complete control, enabling restaurant managers to oversee staff, update menus, track sales, and generate detailed reports.",
     technologies: ["React", "Shadcn", "Tailwind"],
@@ -70,16 +71,16 @@ export const PROJECTS = [
     description:
       "This is an agriculture-related client project completed during my time at the company..",
     technologies: ["Typescript", "CSS", "Next.js", "Tailwind CSS"],
-    vercelLink: "https://vercel.com/hashirnadeemkhans-projects/cultivate-coin/",
-  }
+    vercelLink: "https://cultivate-coin-delta.vercel.app/",
+  },
   
   {
     title: "Advance Todo app",
-    image: project1,
+    image: project5,
     description:
       "A fully functional todo app website with features like notification remember, dark light mode, added, deleted and edited confirmation, filteration,due date etc",
-    technologies: ["HTML", "CSS", "Next js", "tailwind css"],
-    vercelLink: "https://advance-todo-app.vercel.app/",
+    technologies: ["HTML", "CSS", "React js", "tailwind css"],
+    vercelLink: "https://todoapp-using-react-eight.vercel.app/",
   },
 ]
 
