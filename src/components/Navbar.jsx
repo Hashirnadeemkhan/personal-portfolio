@@ -18,7 +18,7 @@ const Navbar = () => {
         </a>
 
         {/* GitHub */}
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Hashirnadeemkhan" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
 
