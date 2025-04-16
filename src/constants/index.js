@@ -41,11 +41,18 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "MOrent - Rent a Car", 
+    title: "Morent - Rent a Car", 
     image: project3,  // Path to your rent-a-car website image
     description: "MOrent is a rent-a-car website where users can browse available cars, book rentals, and manage reservations with ease.",
     technologies: ["Nextjs", "Tailwind", "CMS", "Shadcn"],  // Example tech stack (adjust as per your project)
     vercelLink: "https://hackathon-ecommerce-n63n.vercel.app/",  // Replace with your actual deployed link
+},
+  {
+    title: "Kodeaffinity", 
+    image: "/kodeaffinity.jpg",  // Path to your rent-a-car website image
+    description: "At Kode Affinity, we turn your vision into reality with innovative, scalable, and tailored IT solutions. From stunning websites to dynamic mobile apps and strategic branding, we’re here to help your business thrive in a digital-first world.",
+    technologies: ["Nextjs", "Tailwind", "Firebase", "Shadcn","resend"],  // Example tech stack (adjust as per your project)
+    vercelLink: "https://kodeaffinity.vercel.app/",  // Replace with your actual deployed link
 }
 ,
   {
@@ -62,8 +69,8 @@ export const PROJECTS = [
     image: project2,
     description:
       "This is a Point of Sale (POS) Restaurant Panel designed to streamline restaurant operations. It features an intuitive and responsive interface for managing orders, menus, and inventory. The project includes an Admin Panel for complete control, enabling restaurant managers to oversee staff, update menus, track sales, and generate detailed reports.",
-    technologies: ["React", "Shadcn", "Tailwind"],
-    vercelLink: "https://pos-kq79-hashirnadeemkhans-projects.vercel.app/",
+    technologies: ["Nextjs", "Shadcn", "Tailwind","Firebase","Cloudinary"],
+    vercelLink: "https://pos.intactonesolution.com/pos/login",
   },
   {
     title: "Cultivate Coin",
@@ -71,7 +78,7 @@ export const PROJECTS = [
     description:
       "This is an agriculture-related client project completed during my time at the company..",
     technologies: ["Typescript", "CSS", "Next.js", "Tailwind CSS"],
-    vercelLink: "https://cultivate-coin-delta.vercel.app/",
+    vercelLink: "https://cultivate-coin-hazel.vercel.app/",
   },
   
   {
