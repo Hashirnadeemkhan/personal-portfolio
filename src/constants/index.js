@@ -11,13 +11,6 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "Present",
-    role: "Aspiring Web Developer",
-    company: "Dekodix",
-    description: `Developing and maintaining web applications using JavaScript, React.js, and Next.js. Currently building projects to enhance skills and understanding of RESTful APIs and database integration with Firebase and MongoDB.`,
-    technologies: ["Typescipt", "React.js", "Next.js", "Firebase"],
-  },
-  {
-    year: "Present",
     role: "Frontend Developer (Projects)",
     company: "Intact one Solution",
     description: `Designed and developed user interfaces for personal projects using Next.js and React. Focused on integrating frontend components with backend services and implementing responsive designs.`,
