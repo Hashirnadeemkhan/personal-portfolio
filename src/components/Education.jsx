@@ -1,9 +1,24 @@
 "use client"
 
-import { EXPERIENCES } from "../constants"
 import { motion } from "framer-motion"
 
-const Experience = () => {
+const EDUCATION = [
+  {
+    year: "2021 - 2025",
+    degree: "Bachelor of Computer Science",
+    institution: "Dawood University of Engineering and Technology",
+    description:
+      "Comprehensive study of computer science fundamentals including software engineering, Artificial Intelligence, algorithms, and modern development practices.",
+  },
+  {
+    year: "2019 - 2021",
+    degree: "Intermediate Education",
+    institution: "Formen College Nazimabad",
+    description: "Foundation studies in science and mathematics, preparing for advanced computer science education.",
+  },
+]
+
+const Education = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -12,10 +27,10 @@ const Experience = () => {
         transition={{ duration: 0.5 }}
         className="my-20 text-center text-4xl"
       >
-        Experience
+        Education
       </motion.h2>
       <div>
-        {EXPERIENCES.map((experience, index) => (
+        {EDUCATION.map((education, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -23,7 +38,7 @@ const Experience = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+              <p className="mb-2 text-sm text-neutral-400">{education.year}</p>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -32,17 +47,9 @@ const Experience = () => {
               className="w-full max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">
-                {experience.role} - <span className="text-sm text-purple-100">{experience.company}</span>
+                {education.degree} -<span className="text-sm text-purple-100"> {education.institution}</span>
               </h6>
-              <p className="mb-4 text-neutral-400">{experience.description}</p>
-              {experience.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
-                >
-                  {tech}
-                </span>
-              ))}
+              <p className="mb-4 text-neutral-400">{education.description}</p>
             </motion.div>
           </div>
         ))}
@@ -51,4 +58,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Education
